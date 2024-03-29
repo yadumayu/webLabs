@@ -1,0 +1,225 @@
+h1 {
+  
+}
+
+.unique-text-color{
+  color:#2F6D99;
+}
+.transparent-image {
+  opacity: 0.5;
+}
+
+.mirror-image {
+  transform: scaleX(-1);
+}
+.position-image{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+body{
+  justify-content: center;
+  align-items: center;
+  font-family: "Newsreader";
+  
+  
+}
+header{
+ font-family: 'Newsreader';
+
+}
+.logo{
+  height: 40px;
+  width: auto;
+}
+.main-text{
+  margin-top: 75px;
+}
+.centered-text{
+  text-align: center;
+}
+.align-right{
+  text-align: left;
+}
+.small-image {
+  width: 50px;
+  height: auto;
+}
+.margin-right{
+  margin-right: 20px;
+}
+.margin-left{
+  margin-left: 25px;
+}
+.margin-top{
+  margin-top: 25px;
+}
+.carousel-size{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.chapter-text{
+  margin-top: 20px;
+  margin-left: 20px
+}
+hr.solid {
+  border-top: 1px solid #545454;
+  
+}
+.form-control {
+
+  margin-left: 15px;
+  max-width: 450px;
+}
+.search-color{
+  
+  justify-content: left;
+  align-items: top;
+  height: 60px;  
+  background-color: #E3F2FD;
+}
+.form-label{
+  margin-bottom: 0%;
+}
+.btn-width{
+  max-width: max-content;
+}
+
+.ib{
+  display: inline-block;
+  margin-top: 12px;
+  
+}
+.search-color .form-label {
+  margin-right: 10px; 
+}
+
+.form-control {
+  
+}
+
+#searchBtn {
+  min-width: 75px; 
+}
+.midle {
+  vertical-align: middle;}
+  .oval-btn {
+    border-radius: 20px; 
+    color:#21354d;
+    border-color: #21354d;
+    max-height: 40px;
+    max-width: fit-content;
+}
+
+/* Для изменения стиля фона и рамки чекбокса */
+.btn-check:checked + .oval-btn {
+    background-color: #21354d; /* Цвет фона */
+    border-color: #21354d; /* Цвет рамки */
+    color: #fff; /* Цвет текста */
+    
+}
+.card{
+  border-radius:20px;
+  max-width: fit-content;
+  max-height: fit-content;
+  margin-top: 20px;
+}
+.card-img-top{
+  border-radius:20px;
+  max-width:210px;
+}
+.book-main-img{
+  margin-left: 30px;
+  margin-top: 20px;
+  max-width: 500px;
+  max-width: 300px;
+}
+
+.container {
+  display: flex; 
+  align-items: flex-start; 
+}
+
+.image-container {
+  flex: 0 0 auto; 
+  margin-right: 10px; 
+}
+
+.image-container img {
+  max-width: 75%; 
+  display: block; 
+}
+
+.text-container {
+  flex: 1; 
+}
+.blue{
+  background-color:#a8c8df;
+  border-radius: 15px;
+  min-height:250px ;
+  min-width: 100px;
+  max-width: 600px;
+}
+.price{
+  margin-left:50px;
+  margin-top: 10px;
+}
+
+.cart-items {
+  flex: 1;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.checkout {
+  width: 300px;
+  margin-left: 20px;
+}
+
+.checkout form {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.checkout h2 {
+  margin-bottom: 10px;
+}
+
+.checkout label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.checkout input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.checkout button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout button:hover {
+  background-color: #0056b3;
+}
+
+.min-width-big{
+  min-width: 650px;
+}
+.max-width-small{
+  max-width: 150px;
+}
+.big-margin-left{
+  margin-left: 900px;
+}
