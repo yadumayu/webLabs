@@ -9,6 +9,7 @@
     <link rel="icon" href="images/logo.png" >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="script.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
   </head>
   <body>
@@ -51,31 +52,26 @@
       </h1>
       <div class="search-color">
         <div class="ib midle">
-          <input class="form-control min-width-big" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+          <input type="text" class="search form-control min-width-big" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
           <datalist id="datalistOptions"></datalist></div>
         <div class="ib  midle margin-left">
           <button class="btn btn-primary btn-width" id="searchBtn">Search</button>
         </div>
         <div class = "ib midle margin-left">
           <input type="checkbox" class="btn-check" id="btn-check-default" autocomplete="off">
-<label class="btn btn-outline-primary oval-btn" for="btn-check-default">Default</label>
-      </div>
+          <label class="btn btn-outline-primary oval-btn" for="btn-check-default">Default</label>
+        </div>
       <div class = "ib midle margin-left">
         <input type="checkbox" class="btn-check" id="btn-check-alphabet" autocomplete="off">
-<label class="btn btn-outline-primary oval-btn" for="btn-check-alphabet">A-z</label>
+    <label class="btn btn-outline-primary oval-btn" for="btn-check-alphabet">A-z</label>
     </div>
     <div class = "ib midle margin-left">
       <input type="checkbox" class="btn-check" id="btn-check-list-view" autocomplete="off">
-<label class="btn btn-outline-primary oval-btn" for="btn-check-list-view">List view</label>
+  <label class="btn btn-outline-primary oval-btn" for="btn-check-list-view">List view</label>
   </div>
-  <div class="card" style="width: 18rem;">
-    <img src="images/strugackieHotel.png" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title ib">Book name</h5>
-      <p class ="ib margin-left"> $3.22</p>
-      <p class="card-text">Author.</p>
-      <a href="item.html" class="btn btn-primary">Go to book</a>
-    </div>  
+  <div id="books-container">
+    
+    </div>
   </div>
     </div>
   </body>
