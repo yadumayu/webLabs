@@ -95,9 +95,6 @@ hr.solid {
   margin-right: 10px; 
 }
 
-.form-control {
-  
-}
 
 #searchBtn {
   min-width: 75px; 
@@ -122,12 +119,13 @@ hr.solid {
 .card{
   border-radius:20px;
   max-width: fit-content;
-  max-height: fit-content;
+  max-height:min-content;
   margin-top: 20px;
 }
 .card-img-top{
   border-radius:20px;
-  max-width:210px;
+  max-width:140px;
+  
 }
 .book-main-img{
   margin-left: 30px;
@@ -147,7 +145,7 @@ hr.solid {
 }
 
 .image-container img {
-  max-width: 75%; 
+  max-width: 300px; 
   display: block; 
 }
 
@@ -218,8 +216,42 @@ hr.solid {
   min-width: 650px;
 }
 .max-width-small{
-  max-width: 150px;
+  max-width: 195px;
 }
 .big-margin-left{
   margin-left: 900px;
+}
+#books-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Пространство между карточками */
+}
+#cartContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Пространство между карточками */
+}
+
+.card-shop {
+  width: calc(33.333% - 20px); /* 3 карточки в строке на экранах, ширина с учетом пространства между карточками */
+  margin-bottom: 3px;
+  padding: 10px; /* Уменьшаем внутренние отступы карточки */
+  box-sizing: border-box; /* Учитываем padding внутри ширины карточки */}
+.card-body {
+  margin-bottom: 10px;
+  overflow: hidden; /* Скрытие части содержимого, выходящего за пределы карточки */
+}
+
+.card-shop{
+  width: calc(33.333% - 20px); /* Ширина карточки */
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Равномерно распределяем пространство между элементами внутри карточки */
+
+}
+
+
+.btn-primary {
+  align-self: flex-end; /* Выравниваем кнопку по правому краю карточки */
 }
